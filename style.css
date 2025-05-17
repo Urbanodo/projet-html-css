@@ -1,0 +1,94 @@
+ 
+ body {
+            font-family: 'Roboto'  sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        /* Navigation */
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            justify-content: right;
+        }
+        nav-list{
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            gap: 1.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+            border-radius: 4px;
+        }
+        
+        /* Sections */
+        section {
+            padding: 2rem;
+            min-height: 50vh;
+        }
+        
+        #HOME {
+            background-color: #3fb592;
+        }
+        
+        #ABOUT {
+            background-color: #6fc3c4;
+        }
+        
+        #WORK {
+            background-color: #b7c5e3;
+        }
+        
+        #RESUME {
+            background-color: #e6e0e0;
+        }
+        
+        #CONTACT {
+            background-color: #e9b9b9;
+        }
+        #img {
+            width: 200px;
+            height: 200px;
+        }
+        
+        /* Formulaire de contact */
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        button {
+            background-color: #333;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #555;
+        }
+        
+        /* Pied de page */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }

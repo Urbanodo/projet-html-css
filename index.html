@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar">
+        <ul class="nav-list">
+        <li class="nav-item"><a href="#HOME" class="nav-link">HOME</a></li>
+        <li class="nav-item"><a href="#ABOUTE" class="nav-link">ABOUT</a></li>
+        <li class="nav-item"><a href="#WORK" class="nav-link">WORK</a></li>
+        <li class="nav-item"><a href="#RESUME" class="nav-link">RESUME</a></li>
+        <li class="nav-item"><a href="#CONTACT" class="nav-link">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sections -->
+    <section id="HOME" class="section section-HOME">
+        <h1 class="section title">Welcome to my portfolio</h1>
+        <p class="section txte">I am passionate about web development.</p>
+        <img src="https://scontent.fdkr5-1.fna.fbcdn.net/v/t39.30808-6/467736164_8922853967781098_4862000600727010760_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGJRa7vPeOz7z5Fd5a00DuMYXR5t6UzGRZhdHm3pTMZFtcPxtUee5yNeLI3lYO011d9nCKUuaBFXaW_KCoBQm6U&_nc_ohc=HdMn5U9O8RkQ7kNvwFjueXx&_nc_oc=AdkgLZll_qE7AXC3FEaAhVDoe-BWjG0bMPBF5J8HC3-G9dp4iqEZatMAgWeDeRVOBRk&_nc_zt=23&_nc_ht=scontent.fdkr5-1.fna&_nc_gid=QY2uGYFQEnSnvKbNqrMHcw&oh=00_AfL9BW6o3PR38v7wgV0xypsumYYPDWhod3QhGqBoZisI8w&oe=6824F585" alt="">
+    </section>
+
+    <section id="ABOUT" class="section section-ABOUT">
+        <h2 class="section title">ABOUT ME</h2>
+        <p class="Sections text">My name is Yaovi Urbain DOHOUNGBO and I am a fullstack web development student.</p>
+    </section>
+
+    <section id="WORK" class="section section-WORK">
+        <h2 class="section tilte">My work</h2>
+        <p class="section text">Here are some of my recent projects:</p>
+        <ul class="projet list">
+            <li class="projet item">Projet 1 - Description</li>
+            <li class="projet item">Projet 2 - Description</li>
+            <li class="projet item">Projet 3 - Description</li>
+        </ul>
+    </section>
+
+    <section id="RESUME" class="section section-RESUME">
+        <h2 class="section title">MY RESUME</h2>
+        <div class="RESUME-content">
+        <h3 class="RESUME SUBTITLE">professionals experiences</h3>
+        <ul class="RESUME list">
+            <li class="RESUME item">Post 1 - Company - Dates</li>
+            <li class="RESUME item">Post 2 - Company - Dates</li>
+        </ul>
+        
+        <h4 class="RESUME SUBTITLE">Formations</h3>
+        <ul>
+            <li class="RESUME item">Diploma 1 - Establishment - Year</li>
+            <li class="RESUME item">Diploma 2 - Establishment - Year</li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="CONTACT" class="section section CONTACT">
+        <h2 class="section title">Contact me</h2>
+        <form class="CONTACT-form" method="post">
+            <div class="form">
+                <label for="name" class="form-label">Name :</label>
+                <input type="text" id="name" class="form-input"  required>
+            </div>
+            
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div>
+                <label for="sujet">Sujet :</label>
+                <input type="text" id="sujet" name="sujet">
+            </div>
+            
+            <div>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="form-button">Send</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <p class="footer text">&copy; 2023 My Portfolio. All rights reserved.</p>
+        <p>Follow me on Instagram - LinkedIn</p>
+    </footer>
+</body>
+</html>
